@@ -36,7 +36,7 @@ document.querySelector('.btn-img .btn').addEventListener('click', function() {
     var linkDescarga = document.createElement('a');
 
     linkDescarga.href = imagenUrl;
-    linkDescarga.download = 'ml-discurso.png'; // Puedes cambiar el nombre del archivo aquí
+    linkDescarga.download = 'sesion-ml.jpg'; // Puedes cambiar el nombre del archivo aquí
     document.body.appendChild(linkDescarga);
     linkDescarga.click();
     document.body.removeChild(linkDescarga);
